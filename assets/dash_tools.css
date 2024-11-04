@@ -1,0 +1,149 @@
+.welcome {
+    max-width: 170px;
+    height: 3rem;
+    margin: 1rem 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.5rem;
+
+}
+
+.welcome img {
+    width: 36px;
+    border-radius: 18px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.welcomeInfo span {
+    display: block;
+
+}
+
+.welcomeInfo strong {
+    display: block;
+
+}
+
+.dropdown {
+    margin-top: 0.5rem;
+    display: inline;
+
+}
+
+.dropdown p {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--gray-100);
+
+    margin: 0.5rem;
+
+}
+
+.Select {
+    border-radius: 10px;
+
+}
+
+.Select-control {
+    border: solid 2px var(--blue-500);
+    border-radius: 10px;
+    background: var(--gray-400);
+
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--gray-100);
+
+}
+
+.Select-menu-outer {
+    border: solid 2px var(--blue-500);
+    background: var(--gray-400);
+
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--gray-100);
+
+}
+
+.is-open > .Select-control {
+    background: var(--gray-400);
+    border: solid 2px var(--blue-500);
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, 
+.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+    color: var(--gray-100);
+
+}
+
+.select-menu {
+    background: var(--gray-400);
+    font-size: 0.75rem;
+
+}
+
+.Select-value {
+    width: 350px;
+}
+
+.Select-arrow {
+    border-color: var(--blue-500) transparent transparent;
+
+}
+
+.Select-arrow:hover {
+    border-color: var(--blue-700) transparent transparent;
+
+}
+
+.Select-placeholder {
+    color: var(--gray-100);
+
+}
+
+.Select-placeholder > span {
+    margin-top: 10px;
+
+}
+
+.info {
+    display: flex;
+    align-items:flex-start;
+
+    gap: 0.5rem;
+}
+
+.img_info {
+    width: 26px;
+    border-radius: 4px;
+    padding: 4px;
+
+    background: var(--green-500);
+    gap: 0.5rem;
+}
+
+.text_info {
+    font-size: 0.75rem;
+}
+
+.text_info > strong {
+    display: block;
+}
+
+.text_info > span {
+    display: block;
+}
+
+.info + .info {
+    margin-top: 10px;
+}
+
+.VirtualizedSelectOption style{
+    height: auto;
+}

@@ -1,0 +1,71 @@
+body {
+    background: var(--gray-700);
+    color: var(--gray-100);
+
+    height: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: flex-start;
+    
+}
+
+.grid_info {
+    background: var(--gray-800);
+    display: flex-start;
+    padding: 2rem;
+
+    border-radius: 3px;
+
+}
+
+.grid_content {
+    display: block;
+    padding: 0 1rem;
+
+}
+
+.grid_content > hr {
+    width: 100%;
+    border: 1px solid var(--gray-100);
+    color: var(--gray-400);
+
+}
+
+.dropdown_line {
+    display: flex;
+    gap: 1.5rem;
+
+}
+
+.header {
+    display: flex;
+    padding: 0 1rem;
+
+    align-items: end;
+    justify-content: flex-end;
+
+}
+
+.fund_name {
+    margin-top: 1.75rem;
+
+    font-size: 0.875rem;
+    font-weight: 600;
+
+}
+
+.fund_detail {
+    font-size: 0.75rem;
+    font-weight: 400;
+
+    margin-bottom: 1.5rem;
+
+}
+
+.fund_detail + .fund_detail{
+    margin-top: .75rem;
+
+}
